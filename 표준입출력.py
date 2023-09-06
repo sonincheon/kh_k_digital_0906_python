@@ -1,3 +1,5 @@
+from datetime import datetime
+
 print(38)  #정수
 print("문자열")  #문자열
 print([1,2,3])  #리스트
@@ -31,4 +33,5 @@ month = 9
 day = 6
 print(year,month,day,sep="/") # 2023/9/6
 
-
+current_year =datetime.today().year
+print(current_year)
