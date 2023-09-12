@@ -24,4 +24,13 @@ class TV :
         return self.chnnel
 
     def view_tv(self):
-        power =
+        power = "OFF", "ON"
+        print(f"이름 : {self.name}")
+        print(f"전원 : {self.is_on}")
+        print(f"채널 : {self.channel}")
+        print(f"볼륨 : {self.volume}")
+
+lg_tv = TV("LG", False,  10, 10)
+samsung_tv = TV("SAMSUNG", False, 20, 20)
+lg_tv.view_tv()
+samsung_tv.view_tv()
